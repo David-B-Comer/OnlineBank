@@ -66,4 +66,8 @@ public class SavingsTransaction {
     public void setStatus(String status) {
         this.status = status;
     }
+
+    public double getAmount() {
+        return amount;
+    }
 }
