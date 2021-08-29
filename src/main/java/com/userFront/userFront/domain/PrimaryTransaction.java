@@ -13,4 +13,7 @@ public class PrimaryTransaction {
     private double amount;
     private BigDecimal availableBalance;
 
+    public PrimaryTransaction() {
+    }
+
 }
