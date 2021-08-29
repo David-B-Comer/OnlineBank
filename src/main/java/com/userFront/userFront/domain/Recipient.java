@@ -41,4 +41,8 @@ public class Recipient {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
 }
