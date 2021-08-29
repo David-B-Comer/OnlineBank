@@ -105,4 +105,8 @@ public class User {
     public List<Appointment> getAppointmentList() {
         return appointmentList;
     }
+
+    public void setAppointmentList(List<Appointment> appointmentList) {
+        this.appointmentList = appointmentList;
+    }
 }
