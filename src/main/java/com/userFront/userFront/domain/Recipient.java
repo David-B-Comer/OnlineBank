@@ -7,4 +7,5 @@ public class Recipient {
     private String email;
     private String phone;
     private String accountNumber;
+    private String description;
 }
