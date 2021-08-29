@@ -12,5 +12,6 @@ public class SavingsTransaction {
     private String status;
     private double amount;
     private BigDecimal availableBalance;
+    private SavingsAccount savingsAccount;
 
 }
