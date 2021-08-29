@@ -26,4 +26,8 @@ public class SavingsAccount {
     public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
+
+    public BigDecimal getAccountBalance() {
+        return accountBalance;
+    }
 }
