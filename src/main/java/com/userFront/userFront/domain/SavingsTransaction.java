@@ -34,4 +34,8 @@ public class SavingsTransaction {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public Date getDate() {
+        return date;
+    }
 }
