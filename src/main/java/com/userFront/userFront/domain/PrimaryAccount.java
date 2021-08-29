@@ -38,4 +38,8 @@ public class PrimaryAccount {
     public List<PrimaryTransaction> getPrimaryTransactionList() {
         return primaryTransactionList;
     }
+
+    public void setPrimaryTransactionList(List<PrimaryTransaction> primaryTransactionList) {
+        this.primaryTransactionList = primaryTransactionList;
+    }
 }
