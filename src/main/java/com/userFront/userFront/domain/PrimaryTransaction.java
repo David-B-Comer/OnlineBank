@@ -1,5 +1,6 @@
 package com.userFront.userFront.domain;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 public class PrimaryTransaction {
@@ -10,5 +11,6 @@ public class PrimaryTransaction {
     private String type;
     private String status;
     private double amount;
+    private BigDecimal availableBalance;
 
 }
