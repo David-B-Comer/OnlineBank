@@ -118,4 +118,10 @@ public class User {
         this.recipientList = recipientList;
     }
 
+    @Override
+    public String toString() {
+        return "User [userId=" + userId + ", username=" + username + ", password=" + password +
+                ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + ", phone=" + phone +
+                ", enabled=" + enabled + "]";
+    }
 }
