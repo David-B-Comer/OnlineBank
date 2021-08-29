@@ -18,5 +18,7 @@ public class User {
 
     private SavingsAccount savingsAccount;
 
+    private List<Appointment> appointmentList;
+
     private List<Recipient> recipientList;
 }
