@@ -27,4 +27,7 @@ public class PrimaryTransaction {
         this.primaryAccount = primaryAccount;
     }
 
+    public Long getId() {
+        return id;
+    }
 }
