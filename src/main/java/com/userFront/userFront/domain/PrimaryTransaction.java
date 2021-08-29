@@ -86,4 +86,9 @@ public class PrimaryTransaction {
     public PrimaryAccount getPrimaryAccount() {
         return primaryAccount;
     }
+
+    public void setPrimaryAccount(PrimaryAccount primaryAccount) {
+        this.primaryAccount = primaryAccount;
+    }
+
 }
