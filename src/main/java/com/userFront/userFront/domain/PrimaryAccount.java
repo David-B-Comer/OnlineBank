@@ -10,4 +10,8 @@ public class PrimaryAccount {
     private BigDecimal accountBalance;
 
     private List<PrimaryTransaction> primaryTransactionList;
+
+    public Long getId() {
+        return id;
+    }
 }
