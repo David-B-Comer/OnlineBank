@@ -14,4 +14,7 @@ public class SavingsTransaction {
     private BigDecimal availableBalance;
     private SavingsAccount savingsAccount;
 
+    public SavingsTransaction() {
+    }
+
 }
