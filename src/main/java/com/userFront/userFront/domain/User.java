@@ -1,5 +1,7 @@
 package com.userFront.userFront.domain;
 
+import java.util.List;
+
 public class User {
 
     private Long userId;
@@ -15,4 +17,6 @@ public class User {
     private PrimaryAccount primaryAccount;
 
     private SavingsAccount savingsAccount;
+
+    private List<Recipient> recipientList;
 }
