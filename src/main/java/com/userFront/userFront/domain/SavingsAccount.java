@@ -34,4 +34,8 @@ public class SavingsAccount {
     public void setAccountBalance(BigDecimal accountBalance) {
         this.accountBalance = accountBalance;
     }
+
+    public List<SavingsTransaction> getSavingsTransactionList() {
+        return savingsTransactionList;
+    }
 }
