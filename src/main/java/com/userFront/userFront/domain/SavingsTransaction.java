@@ -42,4 +42,8 @@ public class SavingsTransaction {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    public String getDescription() {
+        return description;
+    }
 }
