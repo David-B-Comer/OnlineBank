@@ -78,4 +78,8 @@ public class PrimaryTransaction {
     public BigDecimal getAvailableBalance() {
         return availableBalance;
     }
+
+    public void setAvailableBalance(BigDecimal availableBalance) {
+        this.availableBalance = availableBalance;
+    }
 }
