@@ -21,4 +21,9 @@ public class User {
     private List<Appointment> appointmentList;
 
     private List<Recipient> recipientList;
+
+    public Long getUserId() {
+        return userId;
+    }
+
 }
