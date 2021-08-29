@@ -101,4 +101,8 @@ public class User {
     public void setSavingsAccount(SavingsAccount savingsAccount) {
         this.savingsAccount = savingsAccount;
     }
+
+    public List<Appointment> getAppointmentList() {
+        return appointmentList;
+    }
 }
