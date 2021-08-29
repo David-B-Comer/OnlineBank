@@ -49,4 +49,8 @@ public class Recipient {
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
+
+    public String getDescription() {
+        return description;
+    }
 }
