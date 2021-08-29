@@ -8,4 +8,6 @@ public class PrimaryTransaction {
     private Date date;
     private String description;
     private String type;
+    private String status;
+
 }
