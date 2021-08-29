@@ -26,4 +26,8 @@ public class Appointment {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    public String getLocation() {
+        return location;
+    }
 }
