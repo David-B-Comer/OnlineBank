@@ -18,4 +18,8 @@ public class PrimaryAccount {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public int getAccountNumber() {
+        return accountNumber;
+    }
 }
