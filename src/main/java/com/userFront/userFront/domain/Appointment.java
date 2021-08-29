@@ -50,4 +50,8 @@ public class Appointment {
     public void setConfirmed(boolean confirmed) {
         this.confirmed = confirmed;
     }
+
+    public User getUser() {
+        return user;
+    }
 }
