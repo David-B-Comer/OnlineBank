@@ -11,4 +11,7 @@ public class SavingsAccount {
 
     private List<SavingsTransaction> savingsTransactionList;
 
+    public Long getId() {
+        return id;
+    }
 }
