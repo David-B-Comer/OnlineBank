@@ -30,4 +30,8 @@ public class SavingsAccount {
     public BigDecimal getAccountBalance() {
         return accountBalance;
     }
+
+    public void setAccountBalance(BigDecimal accountBalance) {
+        this.accountBalance = accountBalance;
+    }
 }
