@@ -113,4 +113,9 @@ public class User {
     public List<Recipient> getRecipientList() {
         return recipientList;
     }
+
+    public void setRecipientList(List<Recipient> recipientList) {
+        this.recipientList = recipientList;
+    }
+
 }
