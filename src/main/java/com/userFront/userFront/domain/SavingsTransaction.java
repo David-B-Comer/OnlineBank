@@ -26,4 +26,8 @@ public class SavingsTransaction {
         this.availableBalance = availableBalance;
         this.savingsAccount = savingsAccount;
     }
+
+    public Long getId() {
+        return id;
+    }
 }
