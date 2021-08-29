@@ -11,4 +11,7 @@ public class Appointment {
     private boolean confirmed;
     private User user;
 
+    public Long getId() {
+        return id;
+    }
 }
