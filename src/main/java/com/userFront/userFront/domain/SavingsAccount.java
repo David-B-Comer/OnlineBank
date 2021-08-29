@@ -22,4 +22,8 @@ public class SavingsAccount {
     public int getAccountNumber() {
         return accountNumber;
     }
+
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
 }
