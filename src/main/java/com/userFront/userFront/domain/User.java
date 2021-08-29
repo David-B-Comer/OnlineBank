@@ -14,4 +14,5 @@ public class User {
 
     private PrimaryAccount primaryAccount;
 
+    private SavingsAccount savingsAccount;
 }
