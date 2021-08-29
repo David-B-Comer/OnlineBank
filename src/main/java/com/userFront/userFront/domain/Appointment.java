@@ -42,4 +42,8 @@ public class Appointment {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public boolean isConfirmed() {
+        return confirmed;
+    }
 }
