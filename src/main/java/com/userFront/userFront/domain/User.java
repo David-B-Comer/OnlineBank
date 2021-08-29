@@ -93,4 +93,8 @@ public class User {
     public void setPrimaryAccount(PrimaryAccount primaryAccount) {
         this.primaryAccount = primaryAccount;
     }
+
+    public SavingsAccount getSavingsAccount() {
+        return savingsAccount;
+    }
 }
