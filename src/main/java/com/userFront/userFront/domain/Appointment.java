@@ -34,4 +34,8 @@ public class Appointment {
     public void setLocation(String location) {
         this.location = location;
     }
+
+    public String getDescription() {
+        return description;
+    }
 }
