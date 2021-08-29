@@ -8,4 +8,6 @@ public class Recipient {
     private String phone;
     private String accountNumber;
     private String description;
+    private User user;
+
 }
