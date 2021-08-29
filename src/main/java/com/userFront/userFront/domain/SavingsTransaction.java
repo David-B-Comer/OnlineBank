@@ -8,5 +8,6 @@ public class SavingsTransaction {
     private Date date;
     private String description;
     private String type;
+    private String status;
 
 }
