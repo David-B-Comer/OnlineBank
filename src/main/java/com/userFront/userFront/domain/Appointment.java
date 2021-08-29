@@ -9,6 +9,6 @@ public class Appointment {
     private String location;
     private String description;
     private boolean confirmed;
-
+    private User user;
 
 }
