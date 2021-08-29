@@ -9,5 +9,6 @@ public class SavingsTransaction {
     private String description;
     private String type;
     private String status;
+    private double amount;
 
 }
