@@ -18,4 +18,8 @@ public class SavingsAccount {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public int getAccountNumber() {
+        return accountNumber;
+    }
 }
