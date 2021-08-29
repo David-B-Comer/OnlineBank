@@ -30,4 +30,7 @@ public class User {
         this.userId = userId;
     }
 
+    public String getUsername() {
+        return username;
+    }
 }
