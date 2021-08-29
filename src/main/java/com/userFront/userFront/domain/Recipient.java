@@ -10,4 +10,7 @@ public class Recipient {
     private String description;
     private User user;
 
+    public Long getId() {
+        return id;
+    }
 }
