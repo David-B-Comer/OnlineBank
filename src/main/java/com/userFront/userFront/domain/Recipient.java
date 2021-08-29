@@ -33,4 +33,8 @@ public class Recipient {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String getPhone() {
+        return phone;
+    }
 }
