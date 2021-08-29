@@ -26,4 +26,7 @@ public class Recipient {
         this.name = name;
     }
 
+    public String getEmail() {
+        return email;
+    }
 }
