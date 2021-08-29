@@ -74,4 +74,8 @@ public class PrimaryTransaction {
     public void setAmount(double amount) {
         this.amount = amount;
     }
+
+    public BigDecimal getAvailableBalance() {
+        return availableBalance;
+    }
 }
