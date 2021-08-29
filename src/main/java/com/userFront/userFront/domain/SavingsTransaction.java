@@ -86,4 +86,8 @@ public class SavingsTransaction {
     public SavingsAccount getSavingsAccount() {
         return savingsAccount;
     }
+
+    public void setSavingsAccount(SavingsAccount savingsAccount) {
+        this.savingsAccount = savingsAccount;
+    }
 }
