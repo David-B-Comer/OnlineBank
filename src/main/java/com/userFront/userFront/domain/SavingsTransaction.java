@@ -82,4 +82,8 @@ public class SavingsTransaction {
     public void setAvailableBalance(BigDecimal availableBalance) {
         this.availableBalance = availableBalance;
     }
+
+    public SavingsAccount getSavingsAccount() {
+        return savingsAccount;
+    }
 }
