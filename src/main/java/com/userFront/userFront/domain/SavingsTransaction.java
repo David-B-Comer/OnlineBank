@@ -58,4 +58,8 @@ public class SavingsTransaction {
     public void setType(String type) {
         this.type = type;
     }
+
+    public String getStatus() {
+        return status;
+    }
 }
