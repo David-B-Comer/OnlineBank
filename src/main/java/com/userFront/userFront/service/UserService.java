@@ -1,4 +1,4 @@
 package com.userFront.userFront.service;
 
-public class UserService {
+public interface UserService {
 }
