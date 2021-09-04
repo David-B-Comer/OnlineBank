@@ -23,4 +23,13 @@ public class UserServiceImpl implements UserService{
         return userDao.findByEmail(email);
     }
 
+
+    public boolean checkUserExists(String username, String email){
+        if (checkUsernameExists(username) || checkEmailExists(username)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
