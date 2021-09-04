@@ -5,4 +5,6 @@ import com.userFront.userFront.domain.User;
 public interface UserService {
 
     User findByUsername(String username);
+
+    User findByEmail(String email);
 }
