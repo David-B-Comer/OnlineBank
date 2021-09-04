@@ -39,5 +39,12 @@ public class UserServiceImpl implements UserService{
         return false;
     }
 
+    public boolean checkEmailExists(String email) {
+        if (null != findByEmail(email)) {
+            return true;
+        }
+        return false;
+    }
+
 
 }
