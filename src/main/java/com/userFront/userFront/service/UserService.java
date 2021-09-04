@@ -7,4 +7,6 @@ public interface UserService {
     User findByUsername(String username);
 
     User findByEmail(String email);
+
+    boolean checkUserExists(String username, String email);
 }
