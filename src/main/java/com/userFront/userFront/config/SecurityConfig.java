@@ -25,4 +25,18 @@ public class SecurityConfig {
     public BCryptPasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder(12, new SecureRandom(SALT.getBytes()));
     }
+
+    private static final String[] PUBLIC_MATCHERS = {
+            "/webjars/**",
+            "/css/**",
+            "/js/**",
+            "/images/**",
+            "/",
+            "/about/**",
+            "/contact/**",
+            "/error/**/*",
+            "/console/**",
+            "/signup"
+    };
+
 }
