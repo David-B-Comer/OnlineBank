@@ -18,4 +18,8 @@ public class Role {
 
     public Role() {
     }
+
+    public int getRoleId() {
+        return roleId;
+    }
 }
