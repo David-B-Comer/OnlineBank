@@ -26,4 +26,8 @@ public class Role {
     public void setRoleId(int roleId) {
         this.roleId = roleId;
     }
+
+    public String getName() {
+        return name;
+    }
 }
