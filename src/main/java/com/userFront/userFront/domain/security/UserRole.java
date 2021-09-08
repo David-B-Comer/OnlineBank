@@ -27,4 +27,8 @@ public class UserRole {
 
     public UserRole() {}
 
+    public long getUserRoleId() {
+        return userRoleId;
+    }
+
 }
