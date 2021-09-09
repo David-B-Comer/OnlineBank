@@ -34,4 +34,8 @@ public class UserRole {
     public void setUserRoleId(long userRoleId) {
         this.userRoleId = userRoleId;
     }
+
+    public User getUser() {
+        return user;
+    }
 }
