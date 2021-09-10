@@ -1,6 +1,7 @@
 package com.userFront.userFront.config;
 
 
+import com.userFront.userFront.service.UserSecurityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,7 +21,8 @@ public class SecurityConfig {
     @Autowired
     private Environment env;
 
-    @Autowired UserSecurityService userSecurityService;
+    @Autowired
+    UserSecurityService userSecurityService;
 
     private static final String SALT = "salt"; // Salt should be protected carefully
 
