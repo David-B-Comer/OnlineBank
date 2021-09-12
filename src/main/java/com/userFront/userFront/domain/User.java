@@ -1,6 +1,7 @@
 package com.userFront.userFront.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.userFront.userFront.domain.security.Authority;
 import com.userFront.userFront.domain.security.UserRole;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -89,7 +90,11 @@ public class User implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+
+        Set<GrantedAuthority> authorities = new HashSet<>();
+        userRoles.forEach(ur -> authorities.add(new Authority(ur.getRole().getName())));
+
+        return authorities;
     }
 
     public String getPassword() {
