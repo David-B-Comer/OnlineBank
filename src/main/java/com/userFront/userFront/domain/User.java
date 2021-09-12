@@ -48,6 +48,10 @@ public class User implements UserDetails {
     @JsonIgnore
     private Set<UserRole> userRoles = new HashSet<>();
 
+    public Set<UserRole> getUserRoles() {
+        return userRoles;
+    }
+
     public Long getUserId() {
         return userId;
     }
