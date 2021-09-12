@@ -52,6 +52,10 @@ public class User implements UserDetails {
         return userRoles;
     }
 
+    public void setUserRoles(Set<UserRole> userRoles) {
+        this.userRoles = userRoles;
+    }
+
     public Long getUserId() {
         return userId;
     }
