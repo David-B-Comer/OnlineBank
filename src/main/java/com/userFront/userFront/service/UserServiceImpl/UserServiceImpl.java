@@ -1,9 +1,10 @@
-package com.userFront.userFront.service;
+package com.userFront.userFront.service.UserServiceImpl;
 
 import com.userFront.userFront.dao.RoleDao;
 import com.userFront.userFront.dao.UserDao;
 import com.userFront.userFront.domain.User;
 import com.userFront.userFront.domain.security.UserRole;
+import com.userFront.userFront.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import javax.transaction.Transactional;
 import java.util.Set;
 
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
     private static final Logger LOG = LoggerFactory.getLogger(UserService.class);
 

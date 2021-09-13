@@ -1,4 +1,4 @@
-package com.userFront.userFront.service;
+package com.userFront.userFront.service.UserServiceImpl;
 
 import com.userFront.userFront.dao.UserDao;
 import com.userFront.userFront.domain.User;
