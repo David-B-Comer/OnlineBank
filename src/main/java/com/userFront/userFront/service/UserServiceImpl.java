@@ -3,6 +3,8 @@ package com.userFront.userFront.service;
 import com.userFront.userFront.dao.UserDao;
 import com.userFront.userFront.domain.User;
 import com.userFront.userFront.domain.security.UserRole;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +13,8 @@ import java.util.Set;
 
 @Service
 public class UserServiceImpl implements UserService{
+
+    private static final Logger LOG = LoggerFactory.getLogger(UserService.class);
 
     @Autowired
     private UserDao userDao;
