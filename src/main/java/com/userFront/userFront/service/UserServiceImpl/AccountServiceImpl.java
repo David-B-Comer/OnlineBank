@@ -10,4 +10,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Autowired
     private PrimaryAccountDao primaryAccountDao;
+
+    @Autowired
+    private SavingsAccountDao savingsAccountDao;
 }
