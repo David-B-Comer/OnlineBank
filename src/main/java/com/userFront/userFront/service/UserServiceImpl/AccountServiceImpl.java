@@ -1,6 +1,7 @@
 package com.userFront.userFront.service.UserServiceImpl;
 
 import com.userFront.userFront.domain.PrimaryAccount;
+import com.userFront.userFront.domain.SavingsAccount;
 import com.userFront.userFront.service.AccountService;
 import com.userFront.userFront.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,5 +29,15 @@ public class AccountServiceImpl implements AccountService {
         primaryAccountDao.save(primaryAccount);
 
         return primaryAccountDao.findByAccountNumber(primaryAccount.getAccountNumber());
+    }
+
+    public SavingsAccount createSavingsAccount() {
+        SavingsAccount savingsAccount = new SavingsAccount();
+        savingsAccount.setAccountBalance(new BigDecimal(0.0));
+        savingsAccount.setAccountNumber(accountGen());
+
+        savingsAccountDao.save(savingsAccount);
+
+        return savingsAccountDao.finfByAccountNumber(savingsAccount.getAccountNumber());
     }
 }
