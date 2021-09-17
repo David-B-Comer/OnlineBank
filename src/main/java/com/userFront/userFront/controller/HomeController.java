@@ -1,5 +1,6 @@
 package com.userFront.userFront.controller;
 
+import com.userFront.userFront.dao.RoleDao;
 import com.userFront.userFront.domain.User;
 import com.userFront.userFront.domain.security.UserRole;
 import com.userFront.userFront.service.UserService;
@@ -18,6 +19,9 @@ public class HomeController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private RoleDao roleDao;
 
     @RequestMapping("/")
     public String home() {
