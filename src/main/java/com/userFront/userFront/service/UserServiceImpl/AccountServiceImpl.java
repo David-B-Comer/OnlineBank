@@ -40,4 +40,8 @@ public class AccountServiceImpl implements AccountService {
 
         return savingsAccountDao.finfByAccountNumber(savingsAccount.getAccountNumber());
     }
+
+    private int accountGen(){
+        return ++nextAccountNumber;
+    }
 }
