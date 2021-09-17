@@ -1,6 +1,7 @@
 package com.userFront.userFront.controller;
 
 import com.userFront.userFront.domain.User;
+import com.userFront.userFront.domain.security.UserRole;
 import com.userFront.userFront.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.HashSet;
+import java.util.Set;
 
 @Controller
 public class HomeController {
@@ -49,7 +51,10 @@ public class HomeController {
             }
             return "signup";
         } else {
-            userService.save(user);
+            Set<UserRole> userRoles = new HashSet<>();
+            userRoles.add(new UserRole(user, roleDao.findByName("USER")));
+
+            userService.createUser(user, userRoles);
 
             return "redirect:/";
         }
