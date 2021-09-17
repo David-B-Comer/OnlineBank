@@ -12,6 +12,8 @@ import java.math.BigDecimal;
 @Service
 public class AccountServiceImpl implements AccountService {
 
+    private static int nextAccountNumber = 11223145;
+
     @Autowired
     private PrimaryAccountDao primaryAccountDao;
 
