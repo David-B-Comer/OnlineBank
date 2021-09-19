@@ -1,7 +1,7 @@
 package com.userFront.userFront.config;
 
 
-import UserSecurityService;
+import com.userFront.userFront.service.UserServiceImpl.UserSecurityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
